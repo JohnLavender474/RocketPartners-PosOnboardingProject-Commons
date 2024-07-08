@@ -1,4 +1,4 @@
-package com.rocketpartners.onboarding.possystem.model;
+package com.rocketpartners.onboarding.commons.model;
 
 import lombok.*;
 
@@ -31,6 +31,8 @@ public class TransactionDto {
      */
     public TransactionDto() {
         lineItemDtos = new ArrayList<>();
+        posLane = 0;
+        transactionNumber = 0;
         subtotal = BigDecimal.ZERO;
         discounts = BigDecimal.ZERO;
         taxes = BigDecimal.ZERO;

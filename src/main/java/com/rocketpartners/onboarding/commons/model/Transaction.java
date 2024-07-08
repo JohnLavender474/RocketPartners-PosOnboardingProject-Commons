@@ -1,4 +1,4 @@
-package com.rocketpartners.onboarding.possystem.model;
+package com.rocketpartners.onboarding.commons.model;
 
 import lombok.*;
 
