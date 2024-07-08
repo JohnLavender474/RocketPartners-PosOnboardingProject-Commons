@@ -13,13 +13,9 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class LineItemDto {
 
-    @NonNull
     private String itemUpc;
-    @NonNull
     private String itemName;
-    @NonNull
     private String transactionId;
-    @NonNull
     private BigDecimal unitPrice;
     private int quantity;
     private boolean voided;
