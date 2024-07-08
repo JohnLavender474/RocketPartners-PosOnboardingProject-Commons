@@ -18,24 +18,15 @@ import java.util.List;
 @AllArgsConstructor
 public class Transaction {
 
-    @NonNull
     private String id;
-    @NonNull
     private String posSystemId;
-    @NonNull
     private List<LineItem> lineItems;
     private int transactionNumber;
-    @NonNull
     private BigDecimal subtotal;
-    @NonNull
     private BigDecimal taxes;
-    @NonNull
     private BigDecimal discountAmount;
-    @NonNull
     private BigDecimal total;
-    @NonNull
     private BigDecimal amountTendered;
-    @NonNull
     private BigDecimal changeDue;
     private String customerId;
     private boolean voided;

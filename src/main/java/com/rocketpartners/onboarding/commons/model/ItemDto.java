@@ -13,11 +13,8 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class ItemDto {
 
-    @NonNull
     private String upc;
-    @NonNull
     private String name;
-    @NonNull
     private BigDecimal unitPrice;
 
     /**

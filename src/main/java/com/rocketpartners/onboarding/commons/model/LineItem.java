@@ -13,9 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 public class LineItem {
 
-    @NonNull
     private String itemUpc;
-    @NonNull
     private String transactionId;
     private int quantity;
     private boolean voided;

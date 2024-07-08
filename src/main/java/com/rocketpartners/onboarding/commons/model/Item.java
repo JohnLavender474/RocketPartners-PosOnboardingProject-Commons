@@ -15,11 +15,8 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class Item {
 
-    @NonNull
     private String upc;
-    @NonNull
     private String name;
-    @NonNull
     private BigDecimal unitPrice;
     private String category;
     private String description;
