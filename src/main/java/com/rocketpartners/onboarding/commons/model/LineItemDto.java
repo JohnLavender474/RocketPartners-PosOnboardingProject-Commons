@@ -10,7 +10,6 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @ToString
-@NoArgsConstructor
 @AllArgsConstructor
 public class LineItemDto {
 
@@ -26,6 +25,20 @@ public class LineItemDto {
     private boolean voided;
     private String category;
     private String description;
+
+    /**
+     * Create a new LineItemDto with empty values.
+     */
+    public LineItemDto() {
+        itemUpc = "";
+        itemName = "";
+        transactionId = "";
+        unitPrice = BigDecimal.ZERO;
+        quantity = 0;
+        voided = false;
+        category = "";
+        description = "";
+    }
 
     /**
      * Create a new LineItemDto from a LineItem and an Item.
